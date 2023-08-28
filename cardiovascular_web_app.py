@@ -36,12 +36,10 @@ def main():
     
     with st.sidebar:
         
-        selected = option_menu('Group Members',
+        selected = option_menu('Developer',
                               
-                              ['Dilshan   - 2019521460115',
-                               'Chamara - 2019521460117',
-                               'Haritha   - 2019521460116'],
-                              icons=['person-circle','person-circle','person-circle'],default_index=-1)
+                              ['Dilshan   - 2019521460115'],
+                              icons=['person-circle'],default_index=-1)
     
     col1, col2, col3 = st.columns(3)
     
